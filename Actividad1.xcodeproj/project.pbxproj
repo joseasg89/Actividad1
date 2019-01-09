@@ -14,6 +14,11 @@
 		84BA937421E3D32D0009BC2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BA937221E3D32D0009BC2D /* LaunchScreen.storyboard */; };
 		84BA937F21E3D32D0009BC2D /* Actividad1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA937E21E3D32D0009BC2D /* Actividad1Tests.swift */; };
 		84BA938A21E3D32D0009BC2D /* Actividad1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA938921E3D32D0009BC2D /* Actividad1UITests.swift */; };
+		84BA939821E3D81A0009BC2D /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA939721E3D81A0009BC2D /* ViewController2.swift */; };
+		84BA939A21E3D8350009BC2D /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA939921E3D8350009BC2D /* ViewController3.swift */; };
+		84BA939D21E3DB7B0009BC2D /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA939C21E3DB7B0009BC2D /* Constantes.swift */; };
+		84BA942221E643ED0009BC2D /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA942121E643ED0009BC2D /* ViewController4.swift */; };
+		84BA942421E6471F0009BC2D /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA942321E6471F0009BC2D /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		84BA938521E3D32D0009BC2D /* Actividad1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Actividad1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BA938921E3D32D0009BC2D /* Actividad1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actividad1UITests.swift; sourceTree = "<group>"; };
 		84BA938B21E3D32D0009BC2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BA939721E3D81A0009BC2D /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		84BA939921E3D8350009BC2D /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		84BA939C21E3DB7B0009BC2D /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
+		84BA942121E643ED0009BC2D /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		84BA942321E6471F0009BC2D /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +107,16 @@
 		84BA936821E3D32D0009BC2D /* Actividad1 */ = {
 			isa = PBXGroup;
 			children = (
+				84BA939B21E3DB3F0009BC2D /* Clases */,
 				84BA936921E3D32D0009BC2D /* AppDelegate.swift */,
 				84BA936B21E3D32D0009BC2D /* ViewController.swift */,
 				84BA936D21E3D32D0009BC2D /* Main.storyboard */,
+				84BA939721E3D81A0009BC2D /* ViewController2.swift */,
+				84BA939921E3D8350009BC2D /* ViewController3.swift */,
 				84BA937021E3D32D0009BC2D /* Assets.xcassets */,
 				84BA937221E3D32D0009BC2D /* LaunchScreen.storyboard */,
 				84BA937521E3D32D0009BC2D /* Info.plist */,
+				84BA942121E643ED0009BC2D /* ViewController4.swift */,
 			);
 			path = Actividad1;
 			sourceTree = "<group>";
@@ -123,6 +137,15 @@
 				84BA938B21E3D32D0009BC2D /* Info.plist */,
 			);
 			path = Actividad1UITests;
+			sourceTree = "<group>";
+		};
+		84BA939B21E3DB3F0009BC2D /* Clases */ = {
+			isa = PBXGroup;
+			children = (
+				84BA939C21E3DB7B0009BC2D /* Constantes.swift */,
+				84BA942321E6471F0009BC2D /* Extension.swift */,
+			);
+			path = Clases;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +280,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				84BA936C21E3D32D0009BC2D /* ViewController.swift in Sources */,
+				84BA942221E643ED0009BC2D /* ViewController4.swift in Sources */,
+				84BA942421E6471F0009BC2D /* Extension.swift in Sources */,
 				84BA936A21E3D32D0009BC2D /* AppDelegate.swift in Sources */,
+				84BA939A21E3D8350009BC2D /* ViewController3.swift in Sources */,
+				84BA939821E3D81A0009BC2D /* ViewController2.swift in Sources */,
+				84BA939D21E3DB7B0009BC2D /* Constantes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
